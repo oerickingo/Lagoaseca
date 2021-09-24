@@ -1,0 +1,168 @@
+<!doctype html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lagoa Seca Imigrantes</title>
+    <link href="bootstrap-5.0.0-beta3-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<style>
+   .footer2 {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100vw;
+      background-color:#E3E4E3;
+      color: black;
+      text-align: center;
+      min-height: 35px;
+    }
+    .container{
+      margin-bottom: 45px;
+    }
+</style> 
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="empresas.html">Lagoa Seca</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item" style="display: none;">
+                <a class="nav-link" href="" >Cadastro de Imigrantes</a>
+              </li>
+              <li class="nav-item" style="display: block;">
+                <a class="nav-link" href="alterarempresa.html">Alterar dados</a>
+              </li>
+              <li class="nav-item" style="display: block;">
+                <a class="nav-link" href="cadastrovagas.html" >Cadastro de Vagas</a>
+              </li>
+              <li class="nav-item" style="display: block;">
+                <a class="nav-link" href="buscarcandidato.html" >Buscar Candidatos</a>
+              </li>
+              <li class="nav-item" style="display: none;">
+                <a class="nav-link" href="" >Buscar Vagas</a>
+              </li>
+            </ul>
+            <div style="display: none;">
+                <form action="" method="post" class="d-flex" >
+                    <input class="form-control me-2" id="email" name="email" type="email" placeholder="E-mail" >
+                    <input class="form-control me-2" id="senha" name="senha" type="senha" placeholder="Senha" >
+                    <button class="btn btn-outline-primary" type="button" onclick="logar()">Logar</button>
+                </form>
+            </div>
+            <div style="display: block;">
+                <form action="" method="post" class="d-flex" >
+                    <button class="btn btn-outline-primary" type="button" onclick="Sair()">Sair</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="row"> 
+        <div class="col">
+          <img src="imagens/imigrante_4.jpeg" class="img-fluid" alt="Imigrantes">
+        </div>
+      </div>
+      <div class="row mt-4">
+
+        <div class="col-3">
+          <div class="g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="p-2">
+              <strong class="d-inline-block mb-2 text-success">Brasil</strong>
+              <h3 class="mb-0">Brasil registrou 1 milhão de imigrantes em dez anos</h3>
+              <div class="mb-1 text-muted">Abril 19</div>
+              <p class="mb-auto">A maior parte é de venezuelanos, 142 mil pessoas, que elevaram o fluxo migratório de 2016 para cá</p>
+            </div>
+            <img src="imagens/news1.jpg" class="img-fluid" alt="Imigrantes">
+            <div class="p-2 text-end">
+              <a href="#" class="stretched-link">Continue lendo...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="p-2">
+              <strong class="d-inline-block mb-2 text-success">Brasil</strong>
+              <h3 class="mb-0">Brasil registrou 1 milhão de imigrantes em dez anos</h3>
+              <div class="mb-1 text-muted">Abril 19</div>
+              <p class="mb-auto">A maior parte é de venezuelanos, 142 mil pessoas, que elevaram o fluxo migratório de 2016 para cá</p>
+            </div>
+            <img src="imagens/news1.jpg" class="img-fluid" alt="Imigrantes">
+            <div class="p-2 text-end">
+              <a href="#" class="stretched-link">Continue lendo...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="p-2">
+              <strong class="d-inline-block mb-2 text-success">Brasil</strong>
+              <h3 class="mb-0">Brasil registrou 1 milhão de imigrantes em dez anos</h3>
+              <div class="mb-1 text-muted">Abril 19</div>
+              <p class="mb-auto">A maior parte é de venezuelanos, 142 mil pessoas, que elevaram o fluxo migratório de 2016 para cá</p>
+            </div>
+            <img src="imagens/news1.jpg" class="img-fluid" alt="Imigrantes">
+            <div class="p-2 text-end">
+              <a href="#" class="stretched-link">Continue lendo...</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="p-2">
+              <strong class="d-inline-block mb-2 text-success">Brasil</strong>
+              <h3 class="mb-0">Brasil registrou 1 milhão de imigrantes em dez anos</h3>
+              <div class="mb-1 text-muted">Abril 19</div>
+              <p class="mb-auto">A maior parte é de venezuelanos, 142 mil pessoas, que elevaram o fluxo migratório de 2016 para cá</p>
+            </div>
+            <img src="imagens/news1.jpg" class="img-fluid" alt="Imigrantes">
+            <div class="p-2 text-end">
+              <a href="#" class="stretched-link">Continue lendo...</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    </footer>
+    <div class="footer2 p-3">
+      <small> Lagoa Seca Imigrantes. 2021. All rights reserved </small>
+    </div>
+  </body>
+<script>
+  function logar(){
+    var email = document.getElementById('email').value;
+    var senha = document.getElementById('senha').value;
+    switch (email) {
+      case 'a@a.com':
+        if(senha=='a'){
+          window.location.href = "imigrantes.html";
+        }else{
+          alert('Senha incorreta');
+        }
+        break;
+      
+      case 'b@b.com':
+        if(senha=='b'){
+          window.location.href = "empresas.html";
+        }else{
+          alert('Senha incorreta');
+        }
+        break;
+      default:
+       alert('E-mail não cadastrado no sistema');
+    }
+  }
+
+  function Sair(){
+    window.location.href = "index.html";
+  }
+</script>
+</html>
